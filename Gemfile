@@ -20,6 +20,28 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+gem 'font-awesome-rails'
+gem 'local_time'
+
+gem 'carrierwave', '~> 1.0'
+gem 'mini_magick'
+
+gem 'gravatarify', '~> 3.0.0'
+gem 'kaminari' #(scrolling pages)
+
+gem 'bootstrap-sass' 
+gem 'hirb' 
+
+gem 'geocoder'   #for coordinates(automatic look-up)
+
+gem 'better_errors' , group: :development
+gem 'figaro'
+
+#for Heroku:
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

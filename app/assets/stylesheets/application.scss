@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap-sprockets";
+@import "bootstrap"; 
+@import "font-awesome";
+
+body{
+	background-image: url(image-path('djhome.jpg'));
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+   background-repeat: no-repeat; 
+}
