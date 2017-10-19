@@ -19,10 +19,13 @@
 @import "font-awesome";
 
 body{
-	background-image: url(image-path('djhome.jpg'));
+
+	background-image: url(image-path('djhome1.jpg'));
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
    background-size: cover;
-   background-repeat: no-repeat; 
+   background-repeat: no-repeat;
+   height: 100%;
+
 }

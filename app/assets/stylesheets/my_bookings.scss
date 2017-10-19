@@ -5,11 +5,33 @@
 
 
 
-.main-frame{
-	  height: 700px;
-    width: 87%;
-    border: solid black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 70px;
+.nephu-logo{
+	text-align: center;
+
+}
+
+.nephu_pic{
+	border-radius: 80px;
+
+}
+
+.dj-frame{
+	text-align: center;
+	border: solid 2px;
+	height: 500px;
+	margin-top: 300px;
+}
+
+.phrase{
+	color: white;
+	font-family: serif;
+}
+
+.under-line{
+	height: 1px;
+	width: 100%;
+	border: solid 1px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2em;
 }
