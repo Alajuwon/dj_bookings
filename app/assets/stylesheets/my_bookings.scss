@@ -7,7 +7,7 @@
 
 .nephu-logo{
 	text-align: center;
-
+	margin-top: -63px;
 }
 
 .nephu_pic{
@@ -17,14 +17,15 @@
 
 .dj-frame{
 	text-align: center;
-	border: solid 2px;
-	height: 500px;
-	margin-top: 300px;
+	height: auto;
+
 }
 
 .phrase{
-	color: white;
+	color: black;
 	font-family: serif;
+	font-size: 36px;
+
 }
 
 .under-line{
@@ -35,3 +36,33 @@
 	margin-left: auto;
 	margin-top: 2em;
 }
+
+input{
+	  border-radius: 15px;
+    height: 35px;
+    width: 30%;
+    
+}
+
+textarea{
+		width: 40%;
+    height: 170px;
+    border-radius: 8px;
+    border: solid 1px;
+    padding: 6px;
+}
+
+
+
+
+
+#form-btn {
+    color: #fff;
+    background-color: #263238;
+    width: 100px;
+    border: black;
+}
+
+
+
+
